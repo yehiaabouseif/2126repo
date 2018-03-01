@@ -10,12 +10,12 @@
             font-size: 20px;
     }
     
-    .img {
+        .img {
             position:absolute;
             width:800px;
             height:200px;
             transform: scale(1);
-            top: 30px;
+            top: 200px;
             left: 350px;
             
         }
@@ -25,7 +25,7 @@
             width:800px;
             height:200px;
             transform: scale(1);
-            top: 380;
+            top: 500;
             left: 800px;
             
         }
@@ -50,48 +50,19 @@
         }        
         
         .container { 
-            width: 90%;
-            margin: auto;
+            width: 0%;
+            margin-top: -210px;
+            padding: -1800px;
             
     }        
-.dropbtn {
-    background-color: black;
-    color: white;
-    padding: 30px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
 
-.dropbtn:hover, .dropbtn:focus {
-    background-color: grey;
-}
+    .a{ 
+            width: 90%;
+            padding: -400px;
+            
+    }        
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 16px 20px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown a:hover {background-color: #f1f1f1}
-
-.show {display:block;}
 
 .sidenav {
     height: 150%;
@@ -109,7 +80,7 @@
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 35px;
     font-family: Futura;
     color: #818181;
     padding: 20px;
@@ -118,15 +89,15 @@
 }
 
 .sidenav a:hover {
-    color: black;
+    color: white;
 }
 
 .sidenav .closebtn {
     position: absolute;
-    top: 0;
+    top: 20;
     right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+    font-size: 35px;
+    margin-left: 150px;
 }
 
 @media screen and (max-height: 450px) {
@@ -137,98 +108,29 @@
 </style>
         </head> 
     <body>
-        <div class="container">
+       
           <br>  <h1> 
-        <font face = "Futura" size = "" ><p align = "center"> Yehia Abouseif</p></font>
-        </h1>
-
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
-<div class="dropdown">
-<button onclick="myFunction()" class="dropbtn">PUCD Creative Computing</button>
-  <div id="myDropdown" class="dropdown-content">
+        <font face = "Futura" size = "40" ><p align = "center"> Yehia Abouseif</p></font>
         
-        <p><a href='interview.html'> Interview with Zayd </a></p>
-        
-        <p><a href='Moonlandings/moonlanding1.html'> The Moonlanding 1 </a></p>
-        <p><a href='Moonlandings/moonlanding2.html'> The Moonlanding 2 </a></p>
-        <p><a href='Moonlandings/moonlanding3.html'> The Moonlanding 3 </a></p>
-        <p><a href='Moonlandings/moonlanding4.html'> The Moonlanding 4 </a></p>
-        <p><a href='Moonlandings/moonlanding5.html'> The Moonlanding 5 </a></p>
-        <p><a href='Moonlandings/moonlanding6.html'> The Moonlanding 6 </a></p>
-        <p><a href='Moonlandings/moonlanding7.html'> The Moonlanding 7 </a></p>
-        
-        <p><a href='Animations/animation1.html'> Animation 1 </a></p>
-        <p><a href='Animations/animation2.html'> Animation 2 </a></p>
-        <p><a href='Animations/animation3.html'> Animation 3 </a></p>
-        <p><a href='Animations/animation4.html'> Animation 4 </a></p>
-        <p><a href='Animations/animation5.html'> Animation 5 </a></p>
-        <p><a href='Animations/animation6.html'> Animation 6 </a></p>
-        <p><a href='Animations/animation7.html'> Animation 7 </a></p>
-        
-        <p><a href='animation8.html'> Animation 8 </a></p>
-        <p><a href='animation9.html'> Animation 9 </a></p>
-        <p><a href='Wordplay.html'> Joey Tribiani </a></p>
-        <p><a href='peppers.html'> Hidden Blues </a></p>
-        <p><a href='Jgame.html'> Waiter Interaction </a></p>
-        <p><a href='blackjack.html'> Black Jack </a></p>
-        <p><a href='thenewschool.html'> Prefered Class Time </a></p>
-        <p><a href='FINAL/final.html'> Ancient Egypt </a></p>
-
- 
-     </div>  
-      
-      
-<script>
-
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
 
 
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script>
-
-<br> <br> <br> 
-<body> 
-
-
-<p><p>
-
-<a href="onepointone.pdf" download>
-  <img border="0" src="pdf.png" width="144" height="142">
-</a>
-
-<p></p>
-
+ <div class="container">
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">Home</a>
-  <a href="#">Creative Computing</a>
-  <a href="#">Core Interaction</a>
-  <a href="#">Portfolio</a>
-  <a href="#">Resume</a>
+  <a href="#"><a href='/Users/Yehia/Documents/GitHub/2126repo/index.html' style=" text-decoration: none;">Home</a></a>
+  <a href="#"><a href='/Users/Yehia/Documents/GitHub/2126repo/creativecomputing.html' style=" text-decoration: none;">Creative Computing</a></a>
+  <a href="#"><a href='/Users/Yehia/Documents/GitHub/2126repo/coreinteraction.html' style=" text-decoration: none;">Core Interaction</a></a>
+  <a href="#"><a href='/Users/Yehia/Documents/GitHub/2126repo/portfolio.html' style=" text-decoration: none;">Portfolio</a></a>
+  <a href="#"><a href='/Users/Yehia/Documents/GitHub/2126repo/resume.html' style=" text-decoration: none;">Resume</a></a>
+</div>
 </div>
 
 
-<span style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776; </span>
+<span style="font-size:100px;cursor:pointer" onclick="openNav()">&#9776; </span>
 
 <script>
 function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("mySidenav").style.width = "450px";
 }
 
 function closeNav() {
@@ -237,7 +139,22 @@ function closeNav() {
 </script>
 
 
-</body>
+        </h1>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    </div> 
+ 
+
+
+
+
+
+
+
+
+
         
     <div class="img">
        <a href=https://www.jonathanyeo.com/>
