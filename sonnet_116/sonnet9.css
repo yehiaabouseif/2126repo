@@ -13,7 +13,7 @@ body  {
             height: 50px;
             text-align: right;
             size: fixed;
-            background-color: #757575 ;
+            background-color: #442920 ;
           
         }
         .colorblock:hover {
@@ -25,31 +25,31 @@ body  {
       } 
 
       .colorblock.a{
-      	background-color: #333333;
+      	background-color: #d8a69d;
       }
       .colorblock.b{
-      	background-color: #020202;
+      	background-color: #212121;
       }
       .colorblock.c{
-      	background-color: #141414;
-      }
-      .colorblock.d{
-      	background-color: #878787;
-      }
-      .colorblock.e{
-      	background-color: #3f3f3f;
-      }
-      .colorblock.f{
       	background-color: #b5b5b5;
       }
+      .colorblock.d{
+      	background-color: #787973;
+      }
+      .colorblock.e{
+      	background-color: #be7f70;
+      }
+      .colorblock.f{
+      	background-color: #f2f2f2;
+      }
       .colorblock.g{
-      	background-color: #212121;
+      	background-color: #3f6276;
       }
       .colorblock.h{
-      	background-color: #dddddd;
+      	background-color: #5f7069;
       }
       .colorblock.i{
-      	background-color: #212121;
+      	background-color: #1c1c21;
       }
 
 ul{
