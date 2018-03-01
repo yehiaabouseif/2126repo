@@ -1,0 +1,30 @@
+body {
+	font-family: Avenir;
+	font-size: 100%; /* 16px */
+	line-height: 2;
+}
+.bottom-left {
+    position: absolute;
+    font-family: Herculanum;
+    font-size: 21pt;
+    bottom: 35px;
+    left: 400px;  
+
+ {
+
+p + p, blockquote + p {
+	text-indent: 2em;
+}
+	font-size 112.5%
+
+h1 + p::first-letter {
+	font-size: 2.5em;
+	letter-spacing: 4px;
+}
+
+article {
+	max width: 29.37em;
+	margin-left: auto;
+	margin-right: auto;
+}
+

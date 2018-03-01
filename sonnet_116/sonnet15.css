@@ -1,0 +1,134 @@
+
+body  {
+    		background-image:url("sonnet15.jpg");
+    		background-color: black;
+    		background-repeat: no-repeat;
+    		margin-top: 5%;
+    		background-size: 100%;
+        text-align: center;
+    		font-size: 14px;
+}
+        .colorblock {
+            width: 50px;
+            height: 50px;
+            text-align: right;
+            size: fixed;
+            background-color: #a5bac9 ;
+          
+        }
+        .colorblock:hover {
+            opacity: 0.0;
+    		filter: alpha(opacity=0);
+        }
+        .colorblock:active {
+            background-color: white;
+      } 
+
+      .colorblock.a{
+      	background-color: #ffffff;
+      }
+      .colorblock.b{
+      	background-color: #1c2619;
+      }
+      .colorblock.c{
+      	background-color: #969993;
+      }
+      .colorblock.d{
+      	background-color: #8eb5ef;
+      }
+      .colorblock.e{
+      	background-color: #071e05;
+      }
+      .colorblock.f{
+      	background-color: #82a0e2;
+      }
+      .colorblock.g{
+      	background-color: #020202;
+      }
+      .colorblock.h{
+      	background-color: #283311;
+      }
+      .colorblock.i{
+      	background-color: #476b2d;
+      }
+
+ul{
+	list-style-type: none;
+	margin: 0%;
+  padding-left: 10px;
+	width: 1260px;
+  align-self: center;
+  text-align: right;
+}
+
+li {
+	display: inline;
+	float: right;
+	/*white-space: nowrap;*/
+	padding: 10px;
+	/*margin-left: 80%;*/
+}
+
+@media screen and (max-width: 1080px) {
+		.colorblock {
+            width: 35px;
+            height: 35px;
+            padding: 5px;
+
+	}
+
+  ul{
+  list-style-type: none;
+  margin: 0%;
+  padding-left: 10px;
+  width: 950px;
+  align-self: center;
+  text-align: right;
+
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white; 
+    position: absolute;
+    bottom: 460px;
+    margin-right: 200px;
+    font-family: Avenir;
+    font-size: 20pt;
+    right: 50px;
+
+}
+}
+
+@media screen and (max-width: 880px) {
+    .colorblock {
+            width: 15px;
+            height: 15px;
+            padding: px;
+
+  }
+
+  ul{
+  list-style-type: none;
+  margin: 0%;
+  padding-left: 10px;
+  width: 780px;
+  align-self: center;
+  text-align: right;
+
+
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white; 
+    position: absolute;
+    bottom: 380px;
+    margin-right: 200px;
+    font-family: Avenir;
+    font-size: 15pt;
+    right: -50px;
+
+}
+}
+

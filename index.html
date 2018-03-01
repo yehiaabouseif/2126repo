@@ -92,6 +92,48 @@
 .dropdown a:hover {background-color: #f1f1f1}
 
 .show {display:block;}
+
+.sidenav {
+    height: 150%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Futura;
+    color: #818181;
+    padding: 20px;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: black;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  .sidenav a {font-family: Futura;}
+}
 </style>
         </head> 
     <body>
@@ -99,7 +141,8 @@
           <br>  <h1> 
         <font face = "Futura" size = "" ><p align = "center"> Yehia Abouseif</p></font>
         </h1>
-        
+
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
 <div class="dropdown">
@@ -171,7 +214,27 @@ window.onclick = function(event) {
 
 <p></p>
 
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">Home</a>
+  <a href="#">Creative Computing</a>
+  <a href="#">Core Interaction</a>
+  <a href="#">Portfolio</a>
+  <a href="#">Resume</a>
+</div>
 
+
+<span style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
 
 
 </body>
@@ -205,18 +268,6 @@ window.onclick = function(event) {
         
     </body>
     
-<div id="background-wrwap">
-    <div class="bubbsle x1"></div>
-    <div class="bubbsle x2"></div>
-    <div class="bubbsle x3"></div>
-    <div class="bubblse x4"></div>
-    <div class="bubbles x5"></div>
-    <div class="bubblse sx6"></div>
-    <div class="bubbles x7"></div>
-    <div class="bubbles x8"></div>
-    <div class="bubbles x9"></div>
-    <div class="bubbles x10"></div>
-</div>
 
 </div>
 
