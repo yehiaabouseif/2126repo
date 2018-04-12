@@ -168,6 +168,10 @@ blockquote{
     text-align: center;
 }
 
+.meta{
+	background-color: none;
+}
+
 .meta-1{
 	margin-left: 8.33%;
 }
@@ -314,6 +318,14 @@ p,h2 {
 	color: white !important;
 	opacity:0.8; 
 	padding: 20px !important;
+}
+
+.meta {
+	width:30% !important;
+	align-items: center;
+	position: none;
+
+
 }
 }
 
