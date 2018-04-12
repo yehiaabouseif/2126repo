@@ -1,0 +1,56 @@
+body {
+	font-family: Avenir;
+	font-size: 10px;
+}
+
+.parent {
+	background: #007890;
+
+}
+
+.parent:before {
+	content: "℗" ;
+	background: #E7E746;
+	color: blue;
+	padding: 5px;
+
+
+}
+
+.parent:after {
+	content: "℗" ;
+	background: #E7E746;
+	color: blue;
+	padding: 5px;
+	
+}
+
+.square {
+	width: 100px;
+	height: 100px;
+	background: yellow;
+}
+
+.rectangle {
+	width: 100px;
+	height: 200px;
+	background: red;
+}
+
+.circle {
+	width: 100px;
+	height: 100px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	background: green;
+}
+
+.pill {
+	height: 300px;
+  	width: 120px;
+  	-moz-border-radius: 80%;
+	-webkit-border-radius: 80%;
+  	border-radius: 80px ;
+  	background: teal;
+}
