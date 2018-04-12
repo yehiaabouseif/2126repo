@@ -66,6 +66,8 @@ blockquote{
 	text-indent: -12px;
 }
 
+.
+
 .container {
 	height: 16.66%
 	width: 33.33%;
@@ -87,7 +89,7 @@ blockquote{
 }
 
 .col{
-	border: 1px dashed rgba(255,0,0,0.3);
+	/*border: 1px dashed rgba(255,0,0,0.3);*/
 	float: left;
 	padding: 20px;
 }
@@ -148,6 +150,7 @@ blockquote{
 	z-index: 1;
 
 }
+
 
 .hero{
 	background-image: url("../img/hero.jpg");
