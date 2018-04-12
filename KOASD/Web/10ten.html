@@ -21,6 +21,58 @@
     <body>
 
 
+<div class="wrapper">
+            <div class="header" style="background-color: #EFC690">
+                <a href="#" id="nav-toggle"></a>
+                <ul class="nav col content-center" id="mobile-nav">
+                    <a href="1one.html"><li>Α</li></a>
+                    <a href ="2two.html"><li>Β</li></a>
+                    <a href ="3three.html"><li>Γ</li></a>
+                    <a href ="4four.html"><li>Δ</li></a>
+                    <a href ="5five.html"><li>Ε</li></a>
+                    <a href ="6six.html"><li>Ζ</li></a>
+                    <a href ="7seven.html"><li>Η</li></a>
+                    <a href ="8eight.html"><li>Θ</li></a>
+                    <a href ="9nine.html"><li>Ι</li></a>
+                    <a href ="10ten.html"><li>Κ</li></a>
+                </ul>
+            </div>
+
+
+<<!-- div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script> -->
+
+
+
+
+
+
         <div class="content col col-5 meta-5" style="font-size:11px; color:#2B5179; margin-top: 30px; -moz-transform: scale(-1, 1);
                 -webkit-transform: scale(-1, 1);
                 -o-transform: scale(-1, 1);
@@ -32,7 +84,7 @@
         </div>
             
 
-        <div class="content col col-5 meta-1" style="font-size:11px; color:#EFDFC3; margin-top: 30px;">
+        <div class="content col col-5 meta-1" id="myImg" style="font-size:11px; color:#EFDFC3; margin-top: 30px;">
                 
 Did you consider while you were watching the film that the Murphy’s were extravagantly wealthy? That house is like a McMansion. And that McMansions are a symbol of American extravagance and success? And in America we love nothing better than a pulling yourself up by your bootstraps story. Success! Opulence! Material possessions!! This is the pinnacle of American Success as defined by advertisers and the Joneses alike.
 <br><br>
@@ -40,7 +92,7 @@ But if Stephen Murphy is America, then what is America guilty of? Have we killed
         </div>
 
 
-        <div class="content col col-4 meta-2" style="font-size:11px; color:#EFDFC3; margin-top: 260px;">
+        <div class="content col col-3 meta-3" id="myImg" style="font-size:11px; color:#EFDFC3; margin-top: 230px;">
                 
 So in the final scene of the movie, the Murphys head to a local diner for standard, greasy, American fare. Hamburgers. French fries. And in case we missed it? Piles and piles of ketchup. And as the three of them (obviously missing one) sit there, in comes Martin – the god of judgement for the murder of all sacred deer. Stephen eyes Martin and vice versa. The two of them locked in a dodgy detente. All the while Kim is still longing for Martin with zero regard for the death of her brother, little desire to change.
 <br><br>
@@ -48,9 +100,17 @@ Ultimately, it’s one final reminder of just how unrepentant Dr. Murphy and his
 
         </div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+        </script>
+        <!--<script  src="js/index.js"></script>-->
+        <script>
+        $( "#nav-toggle" ).click(function() {
+          $( "#mobile-nav" ).toggleClass( "show-nav" );
+          $( this ).toggleClass( "close-menu" );
+        });
+        </script>
 
-
-        <div class="grid-base">
+        <!-- <div class="grid-base">
             <div class="col col-1"></div>
             <div class="col col-1"></div>
             <div class="col col-1"></div>
@@ -63,6 +123,6 @@ Ultimately, it’s one final reminder of just how unrepentant Dr. Murphy and his
             <div class="col col-1"></div>
             <div class="col col-1"></div>
             <div class="col col-1"></div>
-        </div>
+        </div> -->
     </body>
 </html>
