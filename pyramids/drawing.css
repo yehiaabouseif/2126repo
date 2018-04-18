@@ -1,0 +1,83 @@
+.tvscreen {
+  	display: block;
+  	position: relative;
+  	width: 558px;
+  	background: lighten(desaturate(blue, 30%), 40%);
+}
+
+.sky{
+	background: #66CFFD;
+	width: 558px;
+	height: 205px;
+	z-index: -50;
+	position: absolute;
+}
+
+.ground{
+	background: #E3BB6D;
+	width: 558px;
+	z-index: -100;
+	margin-top: 205px;
+	height: 66px;
+	position: absolute;
+}
+
+.sun{
+	background: #F8E71C;
+	position: absolute;
+	margin-left: 40px;
+	margin-top: 20px;
+	width: 66px;
+	height: 66px;
+	-moz-border-radius: 35px;
+	-webkit-border-radius: 35px;
+	border-radius: 35px;
+	animation:
+
+}
+
+.pyramidone{
+	width: 0;
+	height: 0;
+	position: absolute;
+	margin-top: 130px;
+	margin-left: 40px;
+	border-style: solid;
+	border-width: 0 60px 96px 60px;
+	border-color: transparent transparent #FFDF86 transparent;
+}
+
+.pyramidone{
+	width: 0;
+	height: 0;
+	position: absolute;
+	margin-top: 130px;
+	margin-left: 120px;
+	border-style: solid;
+	border-width: 0 60px 96px 60px;
+	border-color: transparent transparent #FFDF86 transparent;
+}
+
+.pyramidtwo{
+	width: 0;
+	height: 0;
+	position: absolute;
+	margin-top: 151px;
+	margin-left: 190px;
+	border-style: solid;
+	border-width: 0 44px 75px 44px;
+	border-color: transparent transparent #EFD17D transparent;
+
+}
+
+.pyramidthree{
+	width: 0;
+	height: 0;
+	position: absolute;
+	margin-top: 174px;
+	margin-left: 250px;
+	border-style: solid;
+	border-width: 0 32.5px 52px 32.5px;
+	border-color: transparent transparent #E6C976 transparent;
+}
+
