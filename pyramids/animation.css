@@ -19,7 +19,7 @@
 .ground{
 	background: #E3BB6D;
 	width: 558px;
-	z-index: -100;
+	/*z-index: -100;*/
 	margin-top: 205px;
 	height: 66px;
 	position: absolute;
