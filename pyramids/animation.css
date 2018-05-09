@@ -14,6 +14,10 @@
 	height: 205px;
 	z-index: -50;
 	position: absolute;
+	animation:
+    rm 8s ease-in-out forwards 1 ,
+    am 8s ease-in-out 8s forwards 1 ;
+
 }
 
 .ground{
@@ -23,6 +27,10 @@
 	margin-top: 205px;
 	height: 66px;
 	position: absolute;
+	animation:
+    ground 8s ease-in-out forwards 1 ,
+    am 8s ease-in-out 8s forwards 1 ;
+
 }
 
 .sun{
@@ -46,21 +54,14 @@
 	height: 0;
 	position: absolute;
 	margin-top: 130px;
-	margin-left: 40px;
-	border-style: solid;
-	border-width: 0 60px 96px 60px;
-	border-color: transparent transparent #FFDF86 transparent;
-}
-
-.pyramidone{
-	width: 0;
-	height: 0;
-	position: absolute;
-	margin-top: 130px;
 	margin-left: 120px;
 	border-style: solid;
 	border-width: 0 60px 96px 60px;
 	border-color: transparent transparent #FFDF86 transparent;
+	animation:
+    pone 8s ease-in-out forwards 1 ,
+    am 8s ease-in-out 8s forwards 1 ;
+    z-index: 100;
 }
 
 .pyramidtwo{
@@ -72,6 +73,10 @@
 	border-style: solid;
 	border-width: 0 44px 75px 44px;
 	border-color: transparent transparent #EFD17D transparent;
+	animation:
+    ptwo 8s ease-in-out forwards 1 ,
+    am 8s ease-in-out 8s forwards 1 ;
+    z-index: 200;
 
 }
 
@@ -84,14 +89,43 @@
 	border-style: solid;
 	border-width: 0 32.5px 52px 32.5px;
 	border-color: transparent transparent #E6C976 transparent;
+	animation:
+    pthree 8s ease-in-out forwards 1 ,
+    am 8s ease-in-out 8s forwards 1 ;
+    z-index: 300;
 }
 
 
 @keyframes pm {
   0% { top: 0; left: 0;}
-  100% { top: 185px; left: 430px; color: #E3BB6D; }
+  70% { top: 185px; left: 430px; background-color: orange;}
+  100% { top: 185px; left: 430px; opacity: 100%;}
 }
 
+@keyframes rm {
+  0% { top: 0; left: 0;}
+  100% { background-color: #020771; }
+}
+
+@keyframes ground {
+  0% { top: 0; left: 0;}
+  100% { background-color: #947945; }
+}
+
+@keyframes pone {
+  0% { top: 0; left: 0;}
+  100% { color: #7A6B41; }
+}
+
+@keyframes ptwo {
+  0% { top: 0; left: 0;}
+  100% { color: #655934; }
+}
+
+@keyframes pthree {
+  0% { top: 0; left: 0;}
+  100% { color: #54492A; }
+}
 /*@keyframes am {
   0% { top: 185px; left: 430px;}
   100% { top: 0; left: 0;}

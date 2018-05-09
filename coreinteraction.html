@@ -209,9 +209,32 @@
             
         }
 
+        * {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 40px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 </style>
         </head> 
     <body>
+
+
        
           <br>  <h1> 
         <font face = "Futura" size = "40" ><p align = "center"> CORE INTERACTION</p></font>
@@ -230,7 +253,7 @@
 
 </div>
 
-<div class="text1">
+<!-- <div class="text1">
      Parsons School of Design <br>
 
 Core Lab Interaction<br>
@@ -420,10 +443,9 @@ The University Learning Center: http://www.newschool.edu/learning-center
 University Disabilities Service: www.newschool.edu/student-disability-services/
 In keeping with the university’s policy of providing equal access for students with disabilities, any student with a disability who needs academic accommodations is welcome to meet with me privately. All conversations will be kept confidential. Students requesting any accommodations will also need to contact Student Disability Service (SDS). SDS will conduct an intake and, if appropriate, the Director will provide an academic accommodation notification letter for you to bring to me. At that point, I will review the letter with you and discuss these accommodations in relation to this course.
 
-</div> 
+</div>  -->
     
     
-</div>
 
 
 <span style="font-size:100px;cursor:pointer" onclick="openNav()">&#9776; </span>
@@ -442,50 +464,70 @@ function closeNav() {
 
         </h1>
 
-<!-- THIS IS ALL STUDIO INTERACTIONS -->
 
-<div class="hyperlink">
+
+
+<div class="row">
+  <div class="column" style="background-color:#D1B696;">
+    <h2>Core Studio Interaction</h2>
+    <p>Sonnet 116.
+    
+    <!-- THIS IS ALL STUDIO INTERACTIONS -->
 
 <a href='/2126repo/sonnet_116/sonnet1.html' style="color: brown; text-decoration: none;">Sonnet 116</a></p>      
     
-</div>
 
-
-
-<div class="hyperlink-2">
+    <p>A Killing of a Sacred Deer.
 
 <a href='/2126repo/KOASD/Web/1one.html' style="color: brown; text-decoration: none;">A Killing of a Sacred Deer</a></p>      
     
 </div>
 
+  
 
-<!-- THIS IS ALL LAB INTERACTION -->
 
-<div class="hyperlink-3">
 
-<a href='/2126repo/bill_of_rights.html' style="color: brown; text-decoration: none;">Bill of Rights</a></p>      
+
+
+
+
+  <div class="column" style="background-color:#B49774;">
+    <h2>Core Lab Interaction</h2>
+    <h3>Bill of Rights.</h3>
+    <!-- THIS IS ALL LAB INTERACTION -->
+
+
+<p><a href='/2126repo/bill_of_rights.html' style="color: brown; text-decoration: none;">Bill of Rights</a></p>      
+    
+
+
+<h3>Web Typography.</h3>
+
+<p><a href='/2126repo/web_typography%20/web_typography.html' style="color: brown; text-decoration: none;">Web Typography</a></p>      
+    
+
+
+
+<h3>Pyramicds Drawing.</h3>
+
+
+<p><a href='/2126repo/pyramids/drawing.html' style="color: brown; text-decoration: none;"> Pyramids Drawing</a></p>      
+    
+
+
+<h3>Pyramicds Animation.</h3>
+
+ 
+
+<p><a href='/2126repo/pyramids/animation.html' style="color: brown; text-decoration: none;"> Pyramids Annimation</a></p>      
     
 </div>
-
-<div class="hyperlink-4">
-
-<a href='/2126repo/web_typography%20/web_typography.html' style="color: brown; text-decoration: none;">Web Typography</a></p>      
-    
-</div>
+  </div>
 
 
 
-<div class="hyperlink-5">
 
-<a href='/2126repo/pyramids/drawing.html' style="color: brown; text-decoration: none;"> Pyramids Drawing</a></p>      
-    
-</div>
 
-<div class="hyperlink-6">
-
-<a href='/2126repo/pyramids/animation.html' style="color: brown; text-decoration: none;"> Pyramids Annimation</a></p>      
-    
-</div>
 
 
 
@@ -494,7 +536,7 @@ function closeNav() {
 
 
 
-</div>
+</body>
 
 
 </html> 
